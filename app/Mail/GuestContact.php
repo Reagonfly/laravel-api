@@ -45,7 +45,7 @@ class GuestContact extends Mailable
     public function content()
     {
         return new Content(
-            view: 'emails.guest_email',
+            view: 'email.guest_email',
         );
     }
 
